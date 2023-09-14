@@ -1,5 +1,5 @@
-import styles from "./P.module.css";
 import { PProps } from "./P.props";
+import styles from "./P.module.css";
 import cn from "classnames";
 
 export const P = ({
@@ -15,7 +15,7 @@ export const P = ({
         [styles.m]: size === "m",
         [styles.l]: size === "l",
       })}
-      {...props }
+      {...props}
     >
       {children}
     </p>
