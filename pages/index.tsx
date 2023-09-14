@@ -1,4 +1,4 @@
-import { Button, Htag, P } from "@/components";
+import { Button, Htag, P, Tag } from "@/components";
 
 export default function Home(): JSX.Element {
   return (
@@ -23,6 +23,19 @@ export default function Home(): JSX.Element {
       <P size="l">Большой</P>
       <P size="m">Средний</P>
       <P size="s">Маленький</P>
+      <Tag size="s">S Ghost</Tag>
+      <Tag size="m" color="red">
+        M Red
+      </Tag>
+      <Tag size="s" color="green">
+        S Green
+      </Tag>
+      <Tag size="m" color="primary">
+        M Primary
+      </Tag>
+      <Tag size="s" color="grey">
+        S Grey
+      </Tag>
     </div>
   );
 }
