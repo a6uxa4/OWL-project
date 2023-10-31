@@ -1,18 +1,32 @@
-.p{
-	margin: 0;
-}
+.footer{
+	display: grid;
 
-.s{
-	font-size: 14px;
-	line-height: 24px;
-}
+	padding: 25px 30px;
 
-.m{
+	color: var(--white);
+
+	background-color: var(--primary );
+
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 20px;
+	grid-template-columns: 1fr auto auto;
+	gap:10px 40px;
 }
 
-.l{
-	font-size: 18px;
-	line-height: 29px;
+
+.footer a{
+	text-decoration: none;
+
+	color: var(--white);
+}
+
+
+.footer a:hover{
+	color: var(--grayligh);
+}
+
+@media( width <=765px){
+	.footer{
+		grid-template-columns: 1fr;
+	}
 }

@@ -21,12 +21,12 @@
 }
 
 .primary:hover {
-	background-color: var(--primary-hover);
+	background-color: var(--primaryhover);
 }
 
 .ghost {
 	color: var(--black);
-	border: 1px solid var(--gray-light);
+	border: 1px solid var(--grayligh);
 	background: none;
 }
 
