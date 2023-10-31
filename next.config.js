@@ -1,4 +1,6 @@
-module.exports = {
+const withImages = require("next-images");
+
+module.exports = withImages({
   images: {
     domains: ["courses-top.ru"],
   },
@@ -28,4 +30,4 @@ module.exports = {
 
     return config;
   },
-};
+});
