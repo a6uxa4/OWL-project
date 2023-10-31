@@ -6,15 +6,7 @@ function Home(): JSX.Element {
   const [rating, setRating] = useState<number>(3);
 
   return (
-    <div
-      style={{
-        padding: "50px",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "start",
-        gap: "20px",
-      }}
-    >
+    <div>
       <Htag tag="h1">Text</Htag>
       <Htag tag="h2">Text</Htag>
       <Htag tag="h3">Text</Htag>

@@ -13,6 +13,7 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "classnames": "^2.3.1",
+    "date-fns": "^2.30.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "react": "18.2.0",
@@ -28,7 +29,7 @@
     "eslint": "^8.48.0",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
-    "stylelint-order": "^6.0.3",
+    "stylelint-order": "^4.1.0",
     "stylelint-order-config-standard": "^0.1.3"
   }
 }
